@@ -1,0 +1,165 @@
+body
+{
+  margin: 0;
+}
+.home
+{
+border-radius: 1px;
+width: 100%;
+height: 150 vh;
+background-image: url(./Assets.jpg/PortfolioBackground.jpg);
+background-position: center;
+background-color: lightgray;
+margin: 0;
+}
+.homeName
+{
+text-align: center;
+text-decoration: yellowgreen;
+font-size: 15vh;
+vertical-align: center;
+color: white;
+padding-top: 25vh;
+padding-bottom: 5vh;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-shadow: 1vh;
+font-style: oblique;
+}
+.homeNav
+{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 5vh;
+  word-spacing: 5vh;
+  padding-bottom: 25vh;
+  font-style: oblique;
+
+}
+#homeNavItem
+{
+display: inline;
+border-color: white;
+border-radius: 1vh;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#sectionHeaders
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100%;
+  color: black;
+  font-size: 8vh;
+  text-align: center;
+}
+#subsectionHeaders
+{
+  font-size: 5vh;
+  color: black;
+  text-align: center;
+}
+.aboutMe
+{
+background-color: darkgray;
+height: 75vh;
+width: 100%;
+margin: 0;
+margin-top: -2vh;
+}
+.columnRapper
+{
+  margin-top: -5vh;
+}
+.aboutColumn1
+{
+width: 30%;
+float: left;
+margin-left: 2.5vh;
+}
+.paragraphContent
+{
+  font-size: 3vh;
+}
+.aboutColumn2
+{
+ width: 30%; 
+
+}
+.aboutColumn3
+{
+  width: 30%;
+  float: right;
+  margin-right: 2.5vh;
+}
+#skill
+{
+  height: 20vh;
+  width: 20vh;
+  display: inline-block;
+  align-content: center;
+}
+.skillWrapper
+{
+  text-align: center;
+  border-color: black;
+}
+.portfolio
+{
+background-color: lightgrey;
+height: 75vh;
+width: 100%;
+margin: 0;
+margin-top: -2vh;
+}
+.portfolioImageContainer1
+{
+}
+.portfolioImageContainer2
+{
+}
+#portfolioImageBox
+{
+height: 10vh;
+width: 10vh;
+}
+#portfolioImages
+{
+  height: 10vh;
+  width: 10vh;
+  align-items: center;
+}
+.contact
+{
+background-color: grey;
+height: 75vh;
+width: 100%;
+margin: 0;
+margin-top: -2vh;
+text-align: center;
+align-content: center;
+}
+#contactInputs
+{
+  color: white;
+  display: inline;
+}
+.contactFormWrapper
+{
+  padding-top: 5vh;
+  background-color: black;
+  border-radius: 2vh;
+  width: 20%;
+  height: 40vh;
+  align-self: center;
+  margin-left: 40%;
+  margin-top: 5vh;
+}
+.messageBox
+{
+  height: 5vh;
+}
+
+/* border-color: black;
+border-radius: 5px;
+background-color: red;
+height: 50vh;
+width: 50%;
